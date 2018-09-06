@@ -1,0 +1,535 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-27 08:50:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-29 10:06:06
+*/
+body{
+	background: #EEE;
+	font-family: Open Sans,sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #555;
+	line-height: 25px;
+}
+
+a{
+	color: #777;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #398110;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+/* 头部 */
+header{
+	width: 100%;
+	height:82px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+header .second{
+	width: 44px;
+	height: 34px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+	border-radius: 6px;
+	float: right;
+	border: 1px solid #ddd;
+}
+header .second a{
+	font-size: 26px;
+	text-align: center;
+}
+header .left{
+	width: 179px;
+	height: 100%;
+	float: left;
+}
+header .right{	
+	width: 400px;
+	height: 82px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	float: right;
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+
+}
+header .right .one{
+	width: 180px;
+	height: 32px;
+	color: #fff;
+	border-radius: 6px;
+	background: #58b325;
+}
+header .right .two{
+	width: 80px;
+	height: 32px;
+}
+header .right .three{
+	width: 85px;
+	height: 32px;
+}
+header .right .four{
+	width: 60px;
+	height: 32px;
+}
+
+/*luobo*/
+.lunbo{
+	margin-top:-20px;
+	margin-bottom:20px;
+	width:100%;
+	height:220px;
+	/*background:yellow;*/
+}
+.lunbo img{
+	width:100%;
+	height:100%;
+}
+/* Find an Awesome Things Here */
+.find{
+	width: 100%;
+	height: 300px;
+	margin-top:200px;
+	text-align: center;
+	/*background-image: url('../img/hero.jpg');*/
+	/*background-position: center ;*/
+	background:#EEEEEE;
+	/*background:red;*/
+}
+.find input{
+	width: 100%;
+	border-radius: 6px;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+	color:gray;
+}
+.find .all{
+	
+	background: rgba(0,0,0, 0.1);
+	
+}
+.find .one{
+	color: rgba(0, 0, 0, 0.1);
+	margin-top: 15px;
+	line-height: 46px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+.find .two{
+	margin-top: 10px;
+	height: 46px;
+	line-height: 46px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+.find .three{
+	font-size: 20px;
+	height: 46px;
+	line-height: 46px;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	
+}
+.find .three .inner{
+	background:#58B325;	
+	border-radius: 6px;
+}
+.find .three .inner:hover{
+	background: #009000;
+}
+.find h1{
+	font-size: 20px;
+	font-weight: 800;
+	color: #000;
+	padding-top: 40px;
+}
+.find h3{
+	display: none;
+	font-size: 16px;
+	font-weight: 200;
+	color: #333;
+	padding:0 0 20px;
+}
+
+
+/* kind */
+.kind{
+	margin-top:20px;
+	width: 100%;
+	background: #EEE;
+}
+
+.kind ul li{
+	height: 145px;
+	background: #eee;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.kind ul li .one{
+	color: #09639E;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.kind ul li .two{
+	color: #99cc33;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .three{
+	color: #855410;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .four{
+	color: #C406B4;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .five{
+	color: #0C1D6B;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .six{
+	color: #F57F0A;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .seven{
+	color: #1BA7DE;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .eight{
+	color: #149C7E;
+	font-size: 50px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.kind ul li .oneth{
+	background: #fff;
+}
+.kind h3{
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: -10px;
+	color: #555;
+}
+.kind h4{
+	font-size: 10px;
+	font-weight: 700;
+	padding-bottom: 28px;
+	color:rgba(0,0,0,0.3);
+}
+
+/* 精选 */
+.feature{
+	width: 100%;
+}
+.feature h3{
+	color: #58b325;
+	padding-left:18px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.feature .sol{
+	/*width: 99%;*/
+	border: 1px solid #ddd;
+	margin:0 auto 24px;
+}
+.feature .soli{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+.feature .box{
+	height: 395px;
+	margin-bottom: 10px;
+}
+.feature .box .boxi{
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	background: #fff;
+}
+.feature .box img{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 10px auto;
+}
+.feature .box h4{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	color: #777;
+}
+.feature .box h4:hover{
+	color: green;
+}
+.feature .box p{
+	font-size: 12px;
+	padding-left: 15px;
+	color: #bbb;
+}
+.feature .box a{
+	font-size: 12px;
+	color: #bbb;
+}
+.feature .box i{
+	font-size: 12px;
+	color: #bbb;
+}
+.feature .dor{
+	width: 100%;
+}
+.feature .dor .love{
+	width:35px ;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+	float: right;
+	margin-top: 10px;
+	background: #fff;
+	border: 1px solid #adadad;
+	font-size: 12px;
+}
+.feature .dor .love:hover{
+	background: #bbb;
+}
+.feature .dor .eye{
+	width:35px ;
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+	background: #5cb85c;
+	border: 1px solid #bbb;
+}
+.feature .dor .eye:hover{
+	background: #4cae4c;
+}
+.feature .dor h5{
+	font-size: 24px;
+	color: #555;
+	font-weight: bold;
+	padding-left: 15px;
+	float: left;
+}
+.feature .dor h6{
+	padding-top:50px;
+	padding-left: 15px;
+	color: #58b325;
+}
+
+/* login */
+form{
+	height: 344px;
+	background:#fff ;
+	text-align: center;
+}
+form .top{
+	width: 96%;
+	height: 44px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E7E7E7;
+	margin-bottom: 10px;
+}
+form .top h3{
+	font-size:15px;
+	font-weight: 700;
+    color: #58b325;
+    line-height: 44px;
+    text-align: left;
+
+}
+form input{
+	width: 96%;
+	height:46px;
+	padding-left: 6px;
+	margin-bottom: 16px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid #ddd;
+}
+form .check{	
+	width: 96%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #777;
+	font-size: 16px;
+}
+form .check .sel{
+	width:14px;
+	height: 14px;
+}
+form button{
+	color: #fff;
+	text-align: center;
+	width: 96%;
+	height: 34px;
+	background: #58B325;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+.thends{
+	height: 344px;
+}
+.thends .inner{
+	height: 344px;
+	background: #fff;
+}
+.thends .top{
+	width: 96%;
+	height: 44px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E7E7E7;
+	margin-bottom: 10px;
+}
+.thends .top h3{
+	font-size:15px;
+	font-weight: 700;
+    color: #58b325;
+    line-height: 44px;
+    text-align: left;
+}
+.thends ul li{
+	font-size: 16px;
+	color: #777;
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.thends ul li:hover{
+	color: #398110;
+}
+.thends ul li span{
+	font-size: 13px;
+	color: #ccc;
+	padding-left: 15px;
+}
+
+.math{
+	width: 100%;
+	margin-top: 34px;
+	background:red ;
+}
+.math ul li{
+	height: 190px;
+	background: #58B325;
+	text-align: center;
+}
+.math ul li i{
+	font-size: 40px;
+	color: #fff;
+	line-height: 76px;
+}
+.math ul li h3{
+	font-size: 60px;
+	color: #fff;
+	margin-top: -18px;
+}
+.math ul li h4{
+	font-size: 16px;
+	color: #fff;
+}
+
+footer{
+	background: #fff;
+}
+footer .left{
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+footer span{
+	color: #4e575d;
+    font-size: 12px;
+}
+footer .right{
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+
+@media screen and (min-width: 350px) {
+	
+}
+@media screen and (min-width: 768px) {
+	header .right{
+		display: flex;
+	}
+	header .second{
+		display: none;
+	}
+	.lunbo{
+		height:400px;
+	}
+	.find{
+		margin-top:300px;
+		height:280px;
+	}
+	.find h1{
+		font-size: 30px;
+	}
+	.find h3{
+		display: inline;
+	}
+	.find .inone{
+
+	}
+	.find .two{
+		margin-top: 15px;
+	}
+	.find .three{
+		margin-top:14px;
+	}
+	footer .left{
+		text-align: left;
+	}
+	footer .right{
+		text-align: right;
+	}
+}
+@media screen and (min-width: 992px) {
+	.lunbo{
+		height:400px;
+	}
+	.find{
+		margin-top:380px;
+		height:220px;
+	}
+}

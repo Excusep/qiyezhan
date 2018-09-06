@@ -1,0 +1,500 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-29 10:06:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-29 17:27:47
+*/
+body{
+	background: #EEE;
+	font-family: Open Sans,sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #555;
+	line-height: 25px;
+}
+
+a{
+	color: #777;
+}
+i{
+	font-style: normal;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #398110;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+.bomb .container{
+	position: relative;
+}
+
+/* 头部 */
+header{
+	width: 100%;
+	height: 82px;
+	background: #fff;
+}
+header .second{
+	width: 44px;
+	height: 34px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+	border-radius: 6px;
+	float: right;
+	border: 1px solid #ddd;
+}
+header .second a{
+	font-size: 26px;
+	text-align: center;
+}
+header .left{
+	width: 179px;
+	height: 100%;
+	float: left;
+}
+header .right{	
+	width: 400px;
+	height: 82px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	float: right;
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+
+}
+header .right .one{
+	width: 180px;
+	height: 32px;
+	color: #fff;
+	border-radius: 6px;
+	background: #58b325;
+}
+header .right .two{
+	width: 80px;
+	height: 32px;
+}
+header .right .three{
+	width: 85px;
+	height: 32px;
+}
+header .right .four{
+	width: 60px;
+	height: 32px;
+}
+
+/* Find an Awesome Things Here */
+.find{
+	width: 100%;
+	height: 256px;
+	text-align: center;
+	background-image: url('../img/hero.jpg');
+	background-position: center ;
+	margin-bottom: 34px;	
+	display: flex;
+	align-items: center;
+}
+.find input{
+	width: 100%;
+	border-radius: 6px;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+}
+.find .all{
+	background: rgba(0, 0, 0, 0.3);
+
+}
+.find .one{
+	color: #555;
+	font-size: 15px;
+	margin-top: 15px;
+	line-height: 34px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+.find .two{
+	color: #555;
+	font-size: 15px;
+	margin-top: 10px;
+	line-height: 34px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+.find .three{
+	font-size: 14px;
+	line-height: 34px;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.find .three .inner{
+	background:#58B325;	
+	border-radius: 6px;
+}
+.find .three .inner:hover{
+	background: #009000;
+}
+.find h1{
+	font-size: 18px;
+	font-weight: 800;
+	color: #fff;
+	padding-top: 40px;
+}
+.find h3{
+	display: none;
+	font-size: 16px;
+	font-weight: 800;
+	color: #fff;
+	padding:0 0 20px;
+}
+
+.home{
+	float: right;
+	margin-right: 15px;
+	margin-top: -10px;
+}
+.home span{
+	font-size: 12px;
+	color: #777;
+}
+.thends{
+	height: 344px;
+}
+.thends .inner{
+	height: 344px;
+	background: #fff;
+}
+.thends .top{
+	width: 96%;
+	height: 44px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E7E7E7;
+	margin-bottom: 10px;
+}
+.thends .top h3{
+	font-size:15px;
+	font-weight: 700;
+    color: #58b325;
+    line-height: 44px;
+    text-align: left;
+}
+.thends ul li{
+	font-size: 16px;
+	color: #777;
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.thends ul li:hover{
+	color: #398110;
+}
+.thends ul li span{
+	font-size: 13px;
+	color: #ccc;
+	padding-left: 15px;
+}
+
+
+.brand{
+	margin-top: 20px;
+}
+.brand .inner{
+	height: 320px;
+	background: #fff;
+}
+.brand .top{
+	width: 96%;
+	height: 44px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E7E7E7;
+	margin-bottom: 10px;
+}
+.brand .top h3{
+	font-size:15px;
+	font-weight: 700;
+    color: #58b325;
+    line-height: 44px;
+    text-align: left;
+}
+.brand ul li{
+	font-size: 16px;
+	color: #777;
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+.brand ul li:hover{
+	color: #398110;
+}
+.brand ul li span{
+	font-size: 13px;
+	color: #ccc;
+	padding-left: 15px;
+}
+
+/* 最低价格 */
+.price{
+	margin-top: 20px;
+}
+.price .inner{
+	height: 140px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.price .down{
+	height: 34px;
+	margin-top: 10px;
+}
+.price .low{
+	border: 1px solid #ccc;
+}
+.price .down h3{
+	font-size: 14px;
+	color: #555;
+	margin-top: 8px;
+	padding-left: 15px;
+} 
+.price .his{
+	height: 34px;
+	margin-top: 10px;
+}
+.price .his h3{
+	font-size: 14px;
+	color: #555;
+	margin-top: 8px;
+	padding-left: 15px;
+} 
+.price .icon i{
+	font-size: 22px;
+	color: #777;
+	float: right;
+	padding-right: 15px;
+	padding-top:18px ;
+}
+.price .icon i:nth-child(2){
+	padding-right: 10px;
+}
+
+
+/* 手机列表 */
+.phone .top {
+
+}
+.phone .top span{
+	font-size: 12px;
+	color: #aaa;
+}
+.phone .top i{
+	color: #333;
+}
+.phone ul li{
+	height: 122px;
+	margin-top: 10px;
+	padding: 0 ;
+	background: #fff;
+}
+.phone ul li:nth-child(1){
+	margin-top: 0;
+}
+.phone ul li .left{
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.phone ul li .left img{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+.phone ul li .center{
+	height: 100%;
+}
+.phone .center p{
+	font-size: 12px;
+	color: #bbb;
+}
+.phone .center a{
+	display: none;
+	font-size: 12px;
+	color: #bbb;
+}
+.phone .center i{
+	font-size: 12px;
+	color: #bbb;
+}
+.phone ul li .right{
+	height: 100%;
+}
+.phone ul li .center h3{
+	font-size: 18px;
+	color: #777;
+}
+.phone ul li .center h4{
+	font-size: 14px;
+	color: #bbb;
+}
+.phone ul li .right{
+	padding: 0;
+}
+.phone .right .all{
+	float: left;
+}
+.phone ul li .right .love{
+	width:35px ;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+	float: left;
+	margin-top: 10px;
+	background: #fff;
+	border: 1px solid #adadad;
+	font-size: 12px;
+}
+.phone ul li .right .love:hover{
+	background: #bbb;
+}
+.phone ul li .right .eye{
+	width:35px ;
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #5cb85c;
+	border: 1px solid #bbb;
+}
+.phone ul li .right .eye:hover{
+	background: #4cae4c;
+}
+.phone .right h5{
+	font-size: 20px;
+	color: #555;
+}
+.phone .right h6{
+	color: #58b325;
+}
+.phone .bot{
+	width: 100%;
+	height: 100px;
+	background: blue;
+}
+.phone .da{
+	margin-top: 548px;
+}
+.phone .date{
+	width: 36px;
+	height: 36px;
+	border: 1px solid #ddd;
+	float: right;
+	line-height: 36px;
+	text-align: center;
+	background: #fff;
+}
+.phone .date:nth-child(1){
+	background: #58B325;
+}
+footer{
+	margin-top: 28px;
+	background: #fff;
+}
+footer .left{
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+footer span{
+	color: #4e575d;
+    font-size: 12px;
+}
+footer .right{
+	height: 80px;
+	text-align: center;
+}
+
+
+
+@media screen and (min-width: 350px) {
+	
+}
+@media screen and (min-width: 768px) {
+	header .right{
+		display: flex;
+	}
+	header .second{
+		display: none;
+	}
+	.find{
+		height: 124px;
+	}
+	.find h1{
+		font-size: 30px;
+	}
+	.find h3{
+		display: inline;
+	}
+	.find .two{
+		margin-top: 15px;
+	}
+	.find .three{
+		margin-top:14px;
+	}
+	footer{
+		margin-top: 800px;
+	}
+	footer .left{
+		text-align: left;
+	}
+	footer .right{
+		text-align: right;
+		line-height: 80px;
+	}
+	
+	.thends{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.brand{
+		position: absolute;
+		top: 380px;
+		left: 0;
+	}
+	.price{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.phone{
+		position: absolute;
+		top: 160px;
+		right: 0;
+	}
+	.phone .center a{
+		display: inline;
+	}
+	.phone .right .all{
+		float: right;
+		margin-right: 20px;
+	}
+	.home{
+		margin-right: 0;
+	}
+
+}
+@media screen and (min-width: 992px) {
+	
+}
