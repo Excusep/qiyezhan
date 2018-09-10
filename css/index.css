@@ -182,6 +182,11 @@ header .right .four{
 	background: #eee;
 	text-align: center;
 	margin-bottom: 22px;
+
+}
+.kind ul li:hover .oneth{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transition: all .3s;
 }
 .kind ul li .one{
 	color: #09639E;
@@ -271,12 +276,17 @@ header .right .four{
 .feature .box{
 	height: 395px;
 	margin-bottom: 10px;
+
 }
 .feature .box .boxi{
 	width: 100%;
 	height: 100%;
 	padding-top: 10px;
 	background: #fff;
+	transition: all .3s;
+}
+.feature .box .boxi:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 .feature .box img{
 	width: 150px;
@@ -359,6 +369,10 @@ form{
 	background:#fff ;
 	text-align: center;
 }
+form:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transition: all .3s;
+}
 form .top{
 	width: 96%;
 	height: 44px;
@@ -411,6 +425,10 @@ form button{
 .thends .inner{
 	height: 344px;
 	background: #fff;
+}
+.thends .inner:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transition: all .3s;
 }
 .thends .top{
 	width: 96%;
