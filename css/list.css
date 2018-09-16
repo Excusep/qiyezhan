@@ -289,7 +289,6 @@ header .right .four{
 
 /* 手机列表 */
 .phone .top {
-
 }
 .phone .top span{
 	font-size: 12px;
@@ -297,6 +296,13 @@ header .right .four{
 }
 .phone .top i{
 	color: #333;
+}
+
+.phone ul{
+	display: none;
+}
+.phone ul:nth-child(1){
+	display: block;
 }
 .phone ul li{
 	height: 122px;
@@ -333,6 +339,7 @@ header .right .four{
 	font-size: 12px;
 	color: #bbb;
 }
+
 .phone ul li .right{
 	height: 100%;
 }
@@ -393,7 +400,8 @@ header .right .four{
 	background: blue;
 }
 .phone .da{
-	margin-top: 548px;
+	margin-top: 558px;
+
 }
 .phone .date{
 	width: 36px;
@@ -403,8 +411,9 @@ header .right .four{
 	line-height: 36px;
 	text-align: center;
 	background: #fff;
+	transition: all .5s;
 }
-.phone .date:nth-child(1){
+.phone .data .col{
 	background: #58B325;
 }
 footer{
@@ -494,7 +503,14 @@ footer .right{
 		margin-right: 0;
 	}
 
+	.phone .ul-list{
+		height:518px;
+		overflow: hidden;
+	}
+	.phone .da{
+		margin-top:20px;
+	}
 }
 @media screen and (min-width: 992px) {
-	
+
 }
